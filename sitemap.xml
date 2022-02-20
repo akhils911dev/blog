@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>blog/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+    <loc>https://akhils911dev.github.io/blog/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>blog/tags/first/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+    <loc>https://akhils911dev.github.io/blog/tags/first/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>blog/posts/test/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+    <loc>https://akhils911dev.github.io/blog/posts/page/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>blog/posts/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+    <loc>https://akhils911dev.github.io/blog/posts/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>blog/tags/</loc>
-    <lastmod>2022-02-20T00:00:00+00:00</lastmod>
+    <loc>https://akhils911dev.github.io/blog/tags/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>blog/categories/</loc>
+    <loc>https://akhils911dev.github.io/blog/categories/</loc>
   </url>
   
 </urlset>
