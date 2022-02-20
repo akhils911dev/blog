@@ -4,28 +4,15 @@
     <title>as-blog</title>
     <link>blog/</link>
     <description>Recent content on as-blog</description>
-    <image>
-      <url>blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My 1st post</title>
       <link>blog/post/test/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>blog/post/test/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>Archive</title>
-      <link>blog/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>blog/archives/</guid>
-      <description>archives</description>
+      <description></description>
     </item>
     
   </channel>
