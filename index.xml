@@ -61,7 +61,16 @@
       <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://akhils911dev.github.io/blog/posts/vulnhub-sar-1/</guid>
-      <description></description>
+      <description>Summary
+Sar is VM from vulnhub, This machine is hosting a tool sar2HTML which is led to an RCE we gain access to the machine with this RCE after that Exploit a week file permission and get the root access
+Machine info
+Name: SAR: 1
+Operating System: Linux
+Author: Love
+Url: https://www.vulnhub.com/entry/sar-1,425
+Enumeration
+find the target IP using Nmap host scan
+nmap -sn 10.10.10.0/24 Starting Nmap 7.92 ( https://nmap.org ) at 2022-01-14 05:53 EST Nmap scan report for 10.</description>
     </item>
     
     <item>
@@ -70,7 +79,8 @@
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://akhils911dev.github.io/blog/posts/matrix-vulnhub/</guid>
-      <description></description>
+      <description>Summary
+The matrix VM is a virtual machine from vulnhub it&amp;rsquo;s a boot2root machine first, we need to find the IP and then scan the IP it discovered some open ports and services after checking those services we got a hint from one web server, with that hint we can access another web server, we got an encoded string from these web server source page decode the strings it&amp;rsquo;s a bash command with a file name, access the file from the webserver it has an another encode data that includes username and password.</description>
     </item>
     
     
