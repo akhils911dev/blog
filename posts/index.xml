@@ -56,7 +56,7 @@ Regular Nmap port scanning nmap -sCV 10.10.111.163 Starting Nmap 7.92 ( https://
     </item>
     
     <item>
-      <title>Vulnhub-Dc-1</title>
+      <title>Vulnhub-Dc-2</title>
       <link>https://akhils911dev.github.io/blog/posts/vulnhub-dc/</link>
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
       
