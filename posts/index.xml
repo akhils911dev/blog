@@ -38,7 +38,8 @@ Timing is the Hack The Box boot2root machine which is a fun box with a lot of en
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://akhils911dev.github.io/blog/posts/tryhackme-bounty-hacker/</guid>
-      <description>Summary
+      <description>Bounty Hacker -Tryhackme
+Summary
 Bounty hacker is a TryHackMe machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
 Machine link
 https://tryhackme.com/room/cowboyhacker
@@ -54,7 +55,8 @@ Nmap scanning
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://akhils911dev.github.io/blog/posts/tryhackme-overpass/</guid>
-      <description>Machine info
+      <description>Overpass -Tryhackme
+Machine info
 https://tryhackme.com/room/overpass
 Summary
 Overpass is a Tryhackme machine which is related to owasp top 10 vulnerability
