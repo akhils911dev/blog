@@ -9,7 +9,18 @@
       <link>https://akhils911dev.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://akhils911dev.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://akhils911dev.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backdoor -Hack The Box</title>
+      <link>https://akhils911dev.github.io/blog/posts/hack-the-box-backdoor/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akhils911dev.github.io/blog/posts/hack-the-box-backdoor/</guid>
+      <description>Welcome back to another hack the box walkthrough. This time we are looking at Backdoor. The box is listed as an easy box.
+Summary
+Manually enumerating the web. We found a plugin it&amp;rsquo;s led to a known exploit which is an LFI. Bruteforcing the PID we get the service info. Abusing the service for the initial foothold and also there is another service is running on this box we use that for PrivSec.</description>
+    </item>
+    
     <item>
       <title>Timing -Hack The Box</title>
       <link>https://akhils911dev.github.io/blog/posts/hack-the-box-timing/</link>
@@ -52,7 +63,7 @@ Accessing machine through ssh
 Exploiting a weak crontab job
 Escalating privileged commands
 Enumeration
-Regular Nmap port scanning nmap -sCV 10.10.111.163 Starting Nmap 7.92 ( https://nmap.org ) at 2022-01-23 00:47 EST Nmap scan report for 10.10.111.163 Host is up (0.38s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.</description>
+Regular Nmap port scanning  nmap -sCV 10.10.111.163 Starting Nmap 7.92 ( https://nmap.org ) at 2022-01-23 00:47 EST Nmap scan report for 10.10.111.163 Host is up (0.38s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.</description>
     </item>
     
     <item>
@@ -82,7 +93,7 @@ nmap -sn 10.10.10.0/24 Starting Nmap 7.92 ( https://nmap.org ) at 2022-01-09 08:
 summary
 DC3 is the vulunhub machine which is fully takdown using known cve&amp;rsquo;s first we need to dump the sql databases, with those creditional we login as admin and make a revershell to foothold the machine after that exploit the known vulnerablity we get the root access
 nmap scan:
-usual ports are open 80 on http 22 on ssh additionaly we can notice the port 80 is running a joombla cms</description>
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-10 10:42 IST Nmap scan report for 192.168.1.5 Host is up (0.039s latency). Not shown: 999 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 80/tcp open http Apache httpd 2.</description>
     </item>
     
     <item>
