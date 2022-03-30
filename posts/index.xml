@@ -50,15 +50,13 @@ Timing is the Hack The Box boot2root machine which is a fun box with a lot of en
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://akhils911dev.github.io/blog/posts/tryhackme-bounty-hacker/</guid>
-      <description>Bounty Hacker -Tryhackme
+      <description>Welcome to the another tryhackme walkthrough. This time we are looking at Bounty Hacker
 Summary
-Bounty hacker is a TryHackMe machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
-Machine link
-https://tryhackme.com/room/cowboyhacker
+Bounty hacker is a Tryhackme machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
 Scanning
 First, we need to find open ports on the machine
 Nmap scanning
-# Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.</description>
+# Nmap 7.</description>
     </item>
     
     <item>
@@ -67,17 +65,15 @@ Nmap scanning
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://akhils911dev.github.io/blog/posts/tryhackme-overpass/</guid>
-      <description>Overpass -Tryhackme
-Machine info
-https://tryhackme.com/room/overpass
+      <description>Welcome to the Tryhackme walkthrough series. we are starting with the box Overpass let&amp;rsquo;s move on.
 Summary
-Overpass is a Tryhackme machine which is related to owasp top 10 vulnerability
-Bypassing web authentication
-Accessing machine through ssh
-Exploiting a weak crontab job
-Escalating privileged commands
+*Overpass is a Tryhackme machine which is related to owasp top 10 vulnerability
+*Bypassing web authentication
+*Accessing machine through ssh
+*Exploiting a weak crontab job
+*Escalating privileged commands
 Enumeration
-Regular Nmap port scanning  nmap -sCV 10.10.111.163 Starting Nmap 7.92 ( https://nmap.org ) at 2022-01-23 00:47 EST Nmap scan report for 10.10.111.163 Host is up (0.38s latency). Not shown: 998 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.</description>
+Regular Nmap port scanning  nmap -sCV 10.10.111.163 Starting Nmap 7.92 ( https://nmap.org ) at 2022-01-23 00:47 EST Nmap scan report for 10.10.111.163 Host is up (0.</description>
     </item>
     
     <item>

