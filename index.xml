@@ -39,8 +39,9 @@ Manually enumerating the web. We found a plugin it&amp;rsquo;s led to a known ex
       
       <guid>https://akhils911dev.github.io/blog/posts/hack-the-box-timing/</guid>
       <description>Timing -Hack The Box
+Welcome to the hack the box walkthrough series. This is my frist HTB walkthrough. Starting with the box Timing. The box is listed as an medium box.
 Summary
-Timing is the Hack The Box boot2root machine which is a fun box with a lot of enumeration. The machine runs a simple PHP web server. Enumerating the web directory we discovered an image.php file. Fuzzing that PHP file we found a parameter &amp;ldquo;?img=&amp;rdquo; if we pass /etc/passwd the server simply responds with a message &amp;ldquo;hacking detected&amp;rdquo; if we use a php wrapper with base64 encoding we will have a successful LFI Vulnerability.</description>
+Timing is the Hack The Box boot2root machine which is a fun box with a lot of enumeration. The machine runs a simple PHP web server. Enumerating the web directory we discovered an image.php file. Fuzzing that PHP file we found a parameter &amp;ldquo;?</description>
     </item>
     
     <item>
