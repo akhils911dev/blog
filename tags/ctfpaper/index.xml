@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CTF,Paper on As-Blog</title>
+    <link>https://akhils911dev.github.io/blog/tags/ctfpaper/</link>
+    <description>Recent content in CTF,Paper on As-Blog</description>
+    <image>
+      <url>https://akhils911dev.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://akhils911dev.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://akhils911dev.github.io/blog/tags/ctfpaper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper -Hack The Box</title>
+      <link>https://akhils911dev.github.io/blog/posts/hack-the-box-paper/</link>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://akhils911dev.github.io/blog/posts/hack-the-box-paper/</guid>
+      <description>Welcome to another HackTheBox walkthrough, this time we are taking on the Paper box, let&amp;rsquo;s jump right in!
+Summary
+The box is starting with a WordPress version vulnerability. Exploit the vulnerability we can see a secret with a domain which is a chat system. Register the chat system and log in. The chat system has a bot functionality abuse the bot functions we find the credential after that access machine. Exploit a known CVE in this box.</description>
+    </item>
+    
+  </channel>
+</rss>
